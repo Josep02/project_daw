@@ -2,16 +2,18 @@
 
 <head>
     <meta charset="utf-8">
-    <title> Page 4 - Register </title>
-    <link rel="stylesheet" href="styles/style_pages.css">
+    <title> Infonews<>
+    </title>
+    <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <video src="assets/videos/BackgroundVideo.mp4" autoplay loop muted></video>
     <header>
-        <nav>
+        <h1><a href="index.html" class="inici"> Infonews<> </a>
+        </h1>
+        <h2 class="subtitle"> Information and more about computer science and related topics </h2>
+        <nav class="primer_nav">
             <ul>
                 <li><a href="news.html"> NEWS </a></li>
                 <li><a href="cripto.html"> CRIPTOCOINS </a></li>
@@ -20,77 +22,79 @@
             </ul>
         </nav>
     </header>
-    <main class="degree">
-        <section>
-            <h3>Log-In</h3>
-            <p>
-                <label for="usermail"> E-mail: </label>
-                <input id="usermail" name="usermail" type="email" required>
-            </p>
-            <p>
-                <label for="Password"> Password: </label>
-                <input id="Password" name="Password" type="password" required>
-            </p>
-            <p>
-                <button type="submit"> Log-In </button>
-                <button type="reset"> Reset </button>
-            </p>
-        </section>
+    <section>
+        <div class="primer">
+            <article>
+                <h3>Log-In</h3>
+                <p>
+                    <label for="usermail"> E-mail: </label>
+                    <input id="usermail" name="usermail" type="email" required>
+                </p>
+                <p>
+                    <label for="Password"> Password: </label>
+                    <input id="Password" name="Password" type="password" required>
+                </p>
+                <p>
+                    <button type="submit"> Log-In </button>
+                    <button type="reset"> Reset </button>
+                </p>
+            </article>
+            <article>
+                <h3>Register</h3>
+                <p>
+                    <label for="username"> Name: </label>
+                    <input id="username" name="username" type="text" required>
+                </p>
+                <p>
+                    <label for="usermail"> E-mail: </label>
+                    <input id="usermail" name="usermail" type="email" required>
+                </p>
+                <p>
+                    <label for="Password"> Password: </label>
+                    <input id="Password" name="Password" type="password" required>
+                </p>
+                <p>
+                    <label for="Password"> Confirm password: </label>
+                    <input id="Password" name="Password" type="password" required>
+                </p>
 
-        <section>
-            <h3>Register</h3>
-            <p>
-                <label for="username"> Name: </label>
-                <input id="username" name="username" type="text" required>
-            </p>
-            <p>
-                <label for="usermail"> E-mail: </label>
-                <input id="usermail" name="usermail" type="email" required>
-            </p>
-            <p>
-                <label for="Password"> Password: </label>
-                <input id="Password" name="Password" type="password" required>
-            </p>
-            <p>
-                <label for="Password"> Confirm password: </label>
-                <input id="Password" name="Password" type="password" required>
-            </p>
+                <fieldset>
+                    <legend>Sex</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="g1" name="drone" value="male" checked>
+                            <label for="g1">Male</label>
+                        </li>
 
-            <fieldset>
-                <legend>Sex</legend>
-                <ul>
-                    <li>
-                        <input type="radio" id="g1" name="drone" value="male" checked>
-                        <label for="g1">Male</label>
-                    </li>
+                        <li>
+                            <input type="radio" id="g2" name="drone" value="female">
+                            <label for="g2">Female</label>
+                        </li>
 
-                    <li>
-                        <input type="radio" id="g2" name="drone" value="female">
-                        <label for="g2">Female</label>
-                    </li>
+                        <li>
+                            <input type="radio" id="g3" name="drone" value="nobinary">
+                            <label for="g3">No binary</label>
+                        </li>
+                    </ul>
+                </fieldset>
 
-                    <li>
-                        <input type="radio" id="g3" name="drone" value="nobinary">
-                        <label for="g3">No binary</label>
-                    </li>
-                </ul>
-            </fieldset>
+                <p>
+                    <label for="date">
+                        <span> Date of birth:</span>
+                        <input type="date" id="date" name="date">
+                    </label>
+                </p>
 
-            <p>
-                <label for="date">
-                    <span> Date of birth:</span>
-                    <input type="date" id="date" name="date">
-                </label>
-            </p>
-        </section>
+            </article>
 
-        <section>
-            <p>
-                <button type="submit"> Register </button>
-                <button type="reset"> Reset </button>
-            </p>
-        </section>
-    </main>
+            <article>
+                <p>
+                    <button type="submit"> Register </button>
+                    <button type="reset"> Reset </button>
+                </p>
+            </article>
+        </div>
+    </section>
     <footer>
         <p>Website for educational purposes. This website offers some outstanding and important news</p>
 
