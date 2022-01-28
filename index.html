@@ -6,10 +6,13 @@
     </title>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
 </head>
 
 <body>
     <header>
+        <video id="video_background" src="assets/BackgroundVideo.mp4" autoplay loop muted></video>
         <h1><a href="index.html" class="inici"> Infonews<> </a>
         </h1>
         <h2 class="subtitle"> Information and more about computer science and related topics </h2>
@@ -68,13 +71,22 @@
         </aside>
     </section>
     <footer>
-        <p>Website for educational purposes. This website offers some outstanding and important news</p>
+        <div class="social">
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <a href="#"><i class="icon ion-social-snapchat"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-facebook"></i></a>
+        </div>
 
-        <hr />
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="news.html"> NEWS </a></li>
+                <li><a href="cripto.html"> CRIPTOCOINS </a></li>
+                <li><a href="gallery.html"> GALLERY </a></li>
+                <li><a href="form.html"> FORM </a></li>
+            </ul>
+        </nav>
+        <p class="copyright">Infonews © 2022</p>
 
-        <ol type="1">
-            <li> [<a href="example">Contact</a>] </li>
-            <li> [<a href="https://es.instagram.org/">Instagram</a>] </li>
-        </ol>
     </footer>
 </body>

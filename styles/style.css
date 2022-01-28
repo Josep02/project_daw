@@ -46,12 +46,6 @@
     font-family: 'Bebas Neue', cursive;
   }
 
-  footer {
-    background-color: black;
-    color: white;
-    padding: 10px 30px 10px 30px;
-  }
-
   h1 {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 20px;
@@ -122,6 +116,7 @@
     border: 4px solid black;
     margin: 0 auto;
     margin-bottom: 30px;
+    border-collapse: collapse;
   }
 
   table tr th{
@@ -160,4 +155,34 @@
     flex-basis: 33%;
     max-width: 33%;
     padding: 10px 10px 0px 10px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    padding: 10px 30px 10px 30px;
+  }
+
+ footer nav ul{
+   color:white;
+   display: flex;
+   border: 1px solid red;
+ }
+
+ footer nav ul li {
+  list-style: none;
+  margin: 0 auto;
+ }
+  
+
+  #video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
   }
