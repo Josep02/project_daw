@@ -157,6 +157,15 @@
     padding: 10px 10px 0px 10px;
   }
 
+  fieldset {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  fieldset ul li{
+    list-style: none;
+  }
+
   footer {
     background-color: black;
     color: white;
@@ -180,8 +189,16 @@
  }
 
  footer div div {
-  flex-basis: 50%;
-  max-width: 50%;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+ }
+
+ footer div div img {
+   filter: invert(100%);
+   width: 100px;
+   height: 100px;
+   margin: 0 auto;
  }
 
   #video_background {
